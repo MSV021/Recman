@@ -14,6 +14,8 @@ class Recman : public QMainWindow
 public:
     Recman(QWidget *parent = nullptr);
     ~Recman();
+private slots: 
+    void onSearch();
 
 private:
     Ui::Recman *ui;
